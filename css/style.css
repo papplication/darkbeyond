@@ -1,0 +1,571 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section 
+{
+	display: block;
+}
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a
+{
+	text-decoration: none;
+}
+.clear
+{
+	clear: both;
+}
+img
+{
+	max-width: 100%;
+}
+
+body
+{
+	font-family: trebuchet ms, arial, sans-serif;
+	background: #fff;
+}
+/*---start-wrap-----*/
+.wrap{
+	width: 60%;
+	margin: 0 auto;
+}
+.content
+{
+	background: #252A2F;
+}
+/*---start-header----*/
+.header-left
+{
+	float: left;
+	margin-top: 1em;
+}
+.header-right
+{
+	float: right;
+}
+.supp-blog-btns ul li a.blog span,.supp-blog-btns ul li a.support span
+{
+	padding: 2.2em 1.8em 1.64em 1.8em;
+	display: block;
+	font-size: 0.95em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	font-family: 'Open Sans', sans-serif;
+	font-family:trebuchet ms, arial, sans-serif;
+}
+.supp-blog-btns ul li a.blog,.supp-blog-btns ul li a.support
+{
+	color: #FFF;
+}
+.supp-blog-btns ul li a.blog:hover,.supp-blog-btns ul li a.support:hover
+{
+	background: #009989;
+}
+/*---End-header----*/
+
+/*-------SUPPORT STARTS HERE -------*/
+/* Support Container (default to float:right) */
+#supportContainer 
+{
+    position: relative;
+    float: left;
+}
+/* Support Button */
+#supportButton
+{ 
+    display: inline-block;
+	float: right;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+/* Support Button Text */
+#supportButton span 
+{
+  	display: block;
+	text-align: center;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	font-family: 'Open Sans', sans-serif;
+}
+/* blog Container (default to float:right) */
+#blogContainer 
+{
+    position: relative;
+    float: left;
+}
+/* Blog Button */
+#blogButton 
+{ 
+    display: inline-block;
+	float: right;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+/* Blog Button Text */
+#blogButton span 
+{
+ 	display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+/*----//End-content---*/
+/*---//End-wrap-----*/
+/***********/
+.main 
+{
+	margin-top: 6em;
+}
+.main_left
+{
+	float: left;
+	width: 45%;
+	margin-top: 2em;
+}
+.main_left h2
+{
+	color: #fff;
+	font-size: 4em;
+	font-weight: bold;
+	text-shadow: 0px 0px 1px #FFF;
+}
+.main_left p
+{
+	color: #fff;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 1em 0em;
+}
+.main_left a img
+{
+	max-width: 210px;
+	width: 210px;
+}
+.main_left a .youtubeplay
+{
+	border: 0;
+	width: 62px;
+	max-width: 62px;
+	float: center;
+	padding-left: 5%;
+}
+.facebook-box
+{
+	border: none;
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    max-width: 150px;
+    max-height: 20px;
+    padding-top: 1em;
+}
+.main_right
+{
+	float: right;
+	width: 42%;
+}
+.main_right span
+{
+	width: 320px;
+	height: 492px;
+	display: block;
+	transition: background 0.5s linear;
+}
+.buttom
+{
+	background: #009989;
+	padding: 8em 0em 4em 0em;
+}
+.top-grids
+{
+	position:relative;
+}
+.top-grid
+{
+	width: 31.9%;
+	float: left;
+	margin-right: 2%;
+	text-align: center;
+	padding-bottom: 3em;
+}
+.top-grid:nth-child(3),.top-grid:nth-child(6)
+{
+	margin-right: 0px;
+	border-right: 0;
+}
+.top-grid h3 p
+{
+	font-size: 1.1em;
+	color: #fff;
+	padding:1.5em 0 0.5em 0;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-shadow: 0px 0px 1px #FFF;
+}
+.top-grid p
+{
+	color: #fff;
+	line-height: 1.6em;
+	font-size: 0.9em;
+	padding: 0.6em 0em;
+	font-family: 'Open Sans', sans-serif;
+}
+/*****footer*****/
+.footer 
+{
+	background: #252A2F;
+}
+.footer-left 
+{
+	float: left;
+	padding: 1.85em 1em;
+}
+.copy p
+{
+	color: #009989;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+.copy p a
+{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.copy p a:hover
+{
+	color: #009989;
+}
+/****social_icons******/
+.social_icons 
+{
+	float: right;
+	padding: 2.2em 1em;
+}
+.social_icons li  a span
+{
+	width: 15px;
+	height: 18px;
+	background: url(../images/socil.png) no-repeat;
+	display: block;
+}
+.social_icons li
+{
+	float: left;
+	margin-left: 1.2em;
+}
+.social_icons ul .youtube a span 
+{
+	background: url(../images/youtube.png) no-repeat;
+}
+.social_icons ul .youtube a span:hover
+{
+	background: url(../images/youtube_h.png) no-repeat;
+}
+.social_icons ul .twitter a span
+{
+	background: url(../images/twitter.png) no-repeat;
+}
+.social_icons ul .twitter a span:hover
+{
+	background: url(../images/twitter_h.png) no-repeat;
+}
+.social_icons ul .facebook a span
+{
+	background: url(../images/facebook.png) no-repeat;
+}
+.social_icons ul .facebook a span:hover
+{
+	background: url(../images/facebook_h.png) no-repeat;
+}
+.social_icons ul .tumblr a span
+{
+	background: url(../images/tumblr.png) no-repeat;
+}
+.social_icons ul .tumblr a span:hover
+{
+	background: url(../images/tumblr_h.png) no-repeat;
+}
+/******responsive*******/
+@media only screen and (max-width:1440px)
+{
+	.wrap
+	{
+		width:70%;
+	}
+
+}
+@media only screen and (max-width:1366px)
+{
+	.main_right span 
+	{
+		width: 300px;
+		height: 460px;
+		background-size: 100%;
+	}
+	.main_right 
+	{
+		width: 38%;
+	}
+}
+@media only screen and (max-width:1280px)
+{
+	.wrap
+	{
+		width: 75%;
+	}
+	.main_right span 
+	{
+		width: 285px;
+		height: 437px;
+		background-size: 100%;
+	}
+	.main_right 
+	{
+		width: 38%;
+	}
+	.main_left h2 
+	{
+		font-size: 3.5em;
+	}
+	.main_left a .youtubeplay 
+	{
+		padding-left: 4%;
+	}
+}
+@media only screen and (max-width:1024px)
+{
+	.wrap
+	{
+		width: 80%;
+	}
+	.main_right span
+	{
+		width: 260px;
+		height: 398px;
+	}
+	.main_left 
+	{
+		margin-top: 1em;
+	}
+	.main_left h2 
+	{
+		font-size: 2.9em;
+	}
+	.main_left p 
+	{
+		font-size: 0.95em;
+	}
+	.main_left a .youtubeplay 
+	{
+		width: 20%;
+		padding-left: 1%;
+	}
+}
+@media only screen and (max-width:768px)
+{
+	/*----*/
+	#page
+	{
+		display:block;
+	}
+	.top-grid a 
+	{
+		font-size: 1em;
+	}
+	.top-grid span 
+	{
+		width: 35px;
+		height: 35px;
+	}
+	.top-grid span label 
+	{
+		font-size: 1.2em;
+	}
+	.header-left 
+	{
+		margin-left: 0em;
+	}
+	.supp-blog-btns ul li a.support span 
+	{
+		padding: 2.2em 1.3em 1.64em 1.3em;
+	}
+	.main_left 
+	{
+		float: none;
+		width: 100%;
+		margin-top: 1em;
+		text-align: center;
+	}
+	.main_left a img 
+	{
+		width: 60%;
+	}
+	.main_right 
+	{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.main_right span 
+	{
+		width: 260px;
+		height: 398px;
+		margin: 0 auto;
+	}
+	.facebook-box 
+	{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 0.5em;
+	}
+	.footer-left 
+	{
+		float: none;
+		padding: 1em 1em;
+		text-align: center;
+	}
+	.social_icons 
+	{
+		float: none;
+		width: 140px;
+		margin: 0 auto;
+		padding: 0.4em 0em 1em 0em;
+	}
+}
+@media only screen and (max-width:640px)
+{
+	.wrap
+	{
+		width:90%;
+	}
+	.main_left h2 
+	{
+		font-size: 3em;
+	}
+	.main 
+	{
+		margin-top: 3em;
+	}
+	.facebook-box 
+	{
+		padding-top: 0.2em;
+	}
+}
+@media only screen and (max-width:480px)
+{
+	.main_left p 
+	{
+		font-size: 0.8em;
+	}
+	.main_left h2 
+	{
+		font-size: 2.5em;
+	}
+	.main_left a .youtubeplay 
+	{
+		width: 18%;
+	}
+	.main_right span 
+	{
+		width: 230px;
+		height: 352px;
+		margin: 0 auto;
+	}
+	.top-grid 
+	{
+		width: 100%;
+		float: none;
+		margin-right: 0%;
+		text-align: center;
+		padding-bottom: 2em;
+	}
+	.buttom 
+	{
+		background: #009989;
+		padding: 2em 0em 2em 0em;
+	}
+	.top-grid h3 a 
+	{
+		padding: 0.5em 0 0.5em 0;
+	}
+	.top-grid p 
+	{
+		padding: 0em 0em;
+	}
+}
+@media only screen and (max-width:320px){
+	.wrap 
+	{
+		width: 90%;
+	}
+	.header-left 
+	{
+		margin-left: 0em;
+	}
+	.navicon 
+	{
+		left: 22px;
+	}
+	.supp-blog-btns ul li a.blog span, .supp-blog-btns ul li a.support span
+	{
+		padding: 1.8em 1em 0.8em 1em;
+	}
+	.main_left h2 
+	{
+		font-size: 2.0em;
+	}
+	.main_left a .youtubeplay 
+	{
+		width: 18%;
+	}
+	.main 
+	{
+		margin-top: 0em;
+	}
+	.main_right span 
+	{
+		width: 160px;
+		height: 245px;
+		margin: 0 auto;
+	}
+	.top-grid h3 a 
+	{
+		font-size: 1em;
+	}
+}
+/*preload*/
+#preload
+{
+	background: url(../images/mobile0.jpg), url(../images/mobile1.jpg), url(../images/mobile2.jpg), url(../images/mobile3.jpg), url(../images/mobile4.jpg), url(../images/mobile5.jpg), url(../images/mobile6.jpg);
+}
