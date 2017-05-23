@@ -280,7 +280,6 @@ body
 {
 	width: 15px;
 	height: 18px;
-	background: url(../images/socil.png) no-repeat;
 	display: block;
 }
 .social_icons li
@@ -290,35 +289,43 @@ body
 }
 .social_icons ul .youtube a span 
 {
-	background: url(../images/youtube.png) no-repeat;
+	background: url(../images/youtube.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .youtube a span:hover
 {
-	background: url(../images/youtube_h.png) no-repeat;
+	background: url(../images/youtube_white.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .twitter a span
 {
-	background: url(../images/twitter.png) no-repeat;
+	background: url(../images/twitter.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .twitter a span:hover
 {
-	background: url(../images/twitter_h.png) no-repeat;
+	background: url(../images/twitter_h.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .facebook a span
 {
-	background: url(../images/facebook.png) no-repeat;
+	background: url(../images/facebook.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .facebook a span:hover
 {
-	background: url(../images/facebook_h.png) no-repeat;
+	background: url(../images/facebook_h.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .tumblr a span
 {
-	background: url(../images/tumblr.png) no-repeat;
+	background: url(../images/tumblr.svg) no-repeat;
+	background-size: 15px 18px;
 }
 .social_icons ul .tumblr a span:hover
 {
-	background: url(../images/tumblr_h.png) no-repeat;
+	background: url(../images/tumblr_h.svg) no-repeat;
+	background-size: 15px 18px;
 }
 /******responsive*******/
 @media only screen and (max-width:1440px)
