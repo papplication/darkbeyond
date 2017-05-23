@@ -3,7 +3,7 @@ showSlides();
 
 function showSlides() {
     var i;
-    if (slideIndex > 6) {
+    if (slideIndex > 5) {
 		slideIndex = 0;
     }
     var slide = document.getElementById("mobilec");
