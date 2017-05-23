@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<g display="none">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="522.7981" y1="34.0866" x2="522.7981" y2="1016.1289">
+		<stop  offset="0" style="stop-color:#40566E"/>
+		<stop  offset="9.582639e-04" style="stop-color:#40556E"/>
+		<stop  offset="0.1362" style="stop-color:#2B4263"/>
+		<stop  offset="0.2845" style="stop-color:#1C345A"/>
+		<stop  offset="0.4534" style="stop-color:#122B53"/>
+		<stop  offset="0.6584" style="stop-color:#0C264F"/>
+		<stop  offset="1" style="stop-color:#0A254D"/>
+	</linearGradient>
+	<ellipse display="inline" fill="url(#SVGID_1_)" cx="522.8" cy="525.1" rx="480.4" ry="491"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="41.8413" y1="525.1077" x2="1003.7549" y2="525.1077">
+		<stop  offset="0" style="stop-color:#8BD2F1"/>
+		<stop  offset="0.16" style="stop-color:#6DB0DF"/>
+		<stop  offset="0.3683" style="stop-color:#4F8AC7"/>
+		<stop  offset="0.5636" style="stop-color:#3C6CB3"/>
+		<stop  offset="0.74" style="stop-color:#3159A5"/>
+		<stop  offset="0.8913" style="stop-color:#2C4D9C"/>
+		<stop  offset="1" style="stop-color:#2B4999"/>
+	</linearGradient>
+	
+		<ellipse display="inline" fill="none" stroke="url(#SVGID_2_)" stroke-width="1.193" stroke-miterlimit="10" cx="522.8" cy="525.1" rx="480.4" ry="491"/>
+</g>
+<text transform="matrix(1 0 0 1 212.4344 859.7905)" fill="#FFFFFF" font-family="'Herculanum'" font-size="1220">P</text>
+</svg>

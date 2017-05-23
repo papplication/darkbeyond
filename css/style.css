@@ -51,6 +51,11 @@ body
 	float: left;
 	margin-top: 1em;
 }
+.logo
+{
+	width: 44px;
+	height: 44px;
+}
 .header-right
 {
 	float: right;
