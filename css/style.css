@@ -200,10 +200,11 @@ body
 }
 .main_right span
 {
-	width: 320px;
-	height: 492px;
+	width: 300px;
+	height: 458px;
 	display: block;
 	transition: background 0.5s linear;
+	background-size: 100%;
 }
 .buttom
 {
@@ -339,14 +340,13 @@ body
 	{
 		width:70%;
 	}
-
 }
 @media only screen and (max-width:1366px)
 {
 	.main_right span 
 	{
 		width: 300px;
-		height: 460px;
+		height: 458px;
 		background-size: 100%;
 	}
 	.main_right 
